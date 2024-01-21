@@ -37,5 +37,11 @@ li{
     width: 200px;
     min-height:150px;
     min-width: 200px;
-    padding: 10px;
+    padding: 12px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }

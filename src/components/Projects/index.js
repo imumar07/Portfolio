@@ -6,6 +6,8 @@ const tabsList = [
     {tabId: 'STATIC', displayText: 'Static'},
     {tabId: 'RESPONSIVE', displayText: 'Responsive'},
     {tabId: 'DYNAMIC', displayText: 'Dynamic'},
+    {tabId: 'JAVA', displayText: 'Java'},
+    {tabId: 'PYTHON', displayText: 'Python'},
   ]
 const projectsList = [
     {
