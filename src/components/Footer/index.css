@@ -1,0 +1,25 @@
+.footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.icons-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+}
+.icon{
+    height: 30px;
+    width: fit-content;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}

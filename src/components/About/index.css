@@ -1,0 +1,26 @@
+.my-pic{
+    height: 400px;
+    width: fit-content;
+}
+.about-section{
+    margin: 20px;
+}
+.display-responsive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (orientation:portrait){
+    .my-pic{
+        height: 200px;
+        width: fit-content;
+    }
+    .display-responsive{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
