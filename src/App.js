@@ -6,16 +6,17 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Skill from './components/Skills';
 import Projects from './components/Projects';
+import Achievements from './components/Achievements';
 
 function App() {
   return (
       <>
-
         <Header/>
         <About/>
         <Projects />
+        
         <Skill/>
-
+        <Achievements/>
         <Footer />
       </>
     );

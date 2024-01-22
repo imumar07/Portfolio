@@ -15,7 +15,7 @@ function NavbarBoot() {
               <Nav.Link href="#about" className="text-white text-center "><p className="hover-underline-animation">About</p></Nav.Link>
               <Nav.Link href="#projects" className="text-white "><p className="hover-underline-animation">Projects</p></Nav.Link>
               <Nav.Link href="#skills" className="text-white "><p className="hover-underline-animation">Skills</p></Nav.Link>
-              <Nav.Link href="#link" className="text-white "><p className="hover-underline-animation">Resume</p></Nav.Link>
+              <Nav.Link href="#experiences" className="text-white "><p className="hover-underline-animation">Experiences</p></Nav.Link>
               <Nav.Link href="#footer" className="text-white"><p className="hover-underline-animation">Contact</p></Nav.Link>
               
             </Nav>
