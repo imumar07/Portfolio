@@ -11,6 +11,9 @@ function CardBoot() {
         <Card.Body style={{ maxWidth: '400px' }} className="about-name-para-button">
           <Card.Title>Syed Umar Kalimulla</Card.Title>
           <Card.Text className="para-about">
+            Intern @HRLytics
+          </Card.Text>
+          <Card.Text className="para-about">
           Aspiring full-stack developer with a solid foundation in web technologies and a proven track record of delivering impactful projects. Committed to contributing expertise and innovation across the entire web development spectrum.
           </Card.Text>
          <a href='https://drive.google.com/uc?export=download&id=1eNYQaQXdvhXvVOyJFPoKVvOdHJ1LVOKg'>

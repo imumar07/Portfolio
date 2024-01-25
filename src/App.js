@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Skill from './components/Skills';
 import Projects from './components/Projects';
-import Achievements from './components/Achievements';
+import Experiences from './components/Experiences';
 
 function App() {
   return (
@@ -14,9 +14,8 @@ function App() {
         <Header/>
         <About/>
         <Projects />
-        
         <Skill/>
-        <Achievements/>
+        <Experiences/>
         <Footer />
       </>
     );

@@ -1,18 +1,21 @@
 .skills-container{
-    margin: 20px;
+    margin: 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 
 }
+
 ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
+    
     align-items: center;
     padding-left: 0;
 

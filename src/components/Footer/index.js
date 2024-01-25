@@ -3,16 +3,15 @@ import "./index.css"
 import { Linkedin, Mail } from 'lucide-react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
-
-
+import { faXTwitter,faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faRocket } from '@fortawesome/free-solid-svg-icons'
 export default function Footer() {
   return (
     
     <div className='footer' id="footer">
-  {library.add( faXTwitter)}
+  {library.add( faXTwitter,faGithub,faRocket)}
 
-      <h1>Contact</h1>
+      <h1>Lets Get Connected <FontAwesomeIcon icon="fa-solid fa-rocket" className='icon'/></h1>
       <div className='icons-container'>
           <div>
             <a href="https://www.linkedin.com/in/syedumarkalimulla"><Linkedin className='icon'/></a>
@@ -22,6 +21,9 @@ export default function Footer() {
           </div>
           <div>
             <a href='mailto:umar630934@gmail.com'><Mail className='icon'/></a>
+          </div>
+          <div>
+          <a href='https://github.com/imumar07'><FontAwesomeIcon icon="fa-brands fa-github" className='icon'/></a>
           </div>
           
       </div>

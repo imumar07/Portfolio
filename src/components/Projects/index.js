@@ -2,6 +2,8 @@ import "./index.css"
 import TabItem from '../TabItem';
 import { Component } from 'react';
 import ProjectItem from '../ProjectItem';
+import Row from 'react-bootstrap/Row';
+
 const tabsList = [
     {tabId: 'STATIC', displayText: 'Static'},
     {tabId: 'RESPONSIVE', displayText: 'Responsive'},
@@ -110,7 +112,7 @@ class Projects extends Component{
         const {activeTabId}=this.state
         const filteredProjects = this.getFilteredProjects()
         return (
-            <div id="projects" className="projects-container">
+            <div id="projects" className="projects-container pt-1">
               <h1 className="text-center" style={{margin:"20px",marginTop:"70px"}}>Projects</h1>
             <ul className="tabs-container">
                   {tabsList.map(tabDetails => (
@@ -122,14 +124,14 @@ class Projects extends Component{
                     />
                   ))}
                 </ul>
-                <ul className="project-list-container">
-          {filteredProjects.map(projectDetails => (
+                <Row xs={1} s={2} md={3} xl={4} className="g-4">
+                {filteredProjects.map(projectDetails => (
             <ProjectItem
               key={projectDetails.projectId}
               projectDetails={projectDetails}
             />
           ))}
-        </ul>
+                </Row>
             </div>
           );
     }

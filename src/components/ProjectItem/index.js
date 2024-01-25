@@ -1,21 +1,24 @@
 import './index.css'
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
 
 const ProjectItem = props => {
   const {projectDetails} = props
   const {projectId, imageURL, description, title} = projectDetails
   return (
     <>
-      <li className="project-item-container">
-        <img
-          className="project-item-image"
-          src={imageURL}
-          alt={`project-item${projectId}`}
-        />
-        <div className="project-item-details-container">
-          <h1 className="project-item-title">{title}</h1>
-          <p className="project-item-description">{description}</p>
-        </div>
-      </li>
+    <Col key={projectId}  className='project-list-container'>
+          <Card className='card-size project-item-container'>
+          <Card.Img variant="top" src={imageURL} />
+            <Card.Body className='project-item-details-container'>
+              <Card.Title>{title}</Card.Title>
+              <Card.Text>
+                {description}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      
     </>
   )
 }
