@@ -8,7 +8,7 @@ function NavbarBoot() {
     return (
       <Navbar expand="lg" className=" navbar" >
         <Container>
-          <Navbar.Brand href="#about"><img src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1705764232/U_xvxxqx.png" className='header-image-logo' alt="header-logo"/></Navbar.Brand>
+          <Navbar.Brand href="#about"><img src="https://res.cloudinary.com/dqe4ld4cx/image/upload/v1706284122/U_axsd9y.png" className='header-image-logo' alt="header-logo"/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="text-grey bg-transparent"/>
           <Navbar.Collapse id="basic-navbar-nav" >
             <Nav className="ms-auto text-center justify-content-center">
