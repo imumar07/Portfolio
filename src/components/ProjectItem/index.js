@@ -7,7 +7,7 @@ const ProjectItem = props => {
   const {projectId, imageURL, description, title} = projectDetails
   return (
     <>
-    <Col key={projectId}  className='project-list-container'>
+    <Col key={projectId}  className='project-list-container '>
           <Card className='card-size project-item-container'>
           <Card.Img variant="top" src={imageURL} />
             <Card.Body className='project-item-details-container'>

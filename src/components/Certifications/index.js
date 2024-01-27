@@ -15,7 +15,7 @@ const certifications = [
 
 export default function Certifications() {
     return (
-        <Row xs={1} s={2} md={3} className="g-4">
+        <Row xs={1} s={2} md={2} lg={3} className="g-4">
         {library.add( faLink)}
           {certifications.map((each) => (
             <Col key={each.id} >

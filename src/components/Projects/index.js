@@ -112,7 +112,7 @@ class Projects extends Component{
         const {activeTabId}=this.state
         const filteredProjects = this.getFilteredProjects()
         return (
-            <div id="projects" className="projects-container pt-1">
+            <div id="projects" className="projects-container pt-1 ml-0" >
               <h1 className="text-center" style={{margin:"20px",marginTop:"70px"}}>Projects</h1>
             <ul className="tabs-container">
                   {tabsList.map(tabDetails => (
@@ -124,7 +124,7 @@ class Projects extends Component{
                     />
                   ))}
                 </ul>
-                <Row xs={1} s={2} md={3} xl={4} className="g-4">
+                <Row xs={1} s={2} md={2} xl={4} className="g-4"  style={{marginRight:"0"}}>
                 {filteredProjects.map(projectDetails => (
             <ProjectItem
               key={projectDetails.projectId}
