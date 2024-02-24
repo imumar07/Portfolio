@@ -103,6 +103,13 @@ const projectsList = [
       title: 'Calculator',
       description: 'Python-based calculator project facilitating basic arithmetic operations with user-friendly interface.',
     },
+    {
+      projectId: 13,
+      category: 'PYTHON',
+      imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708770852/registration_bztwbk.jpg',
+      title: 'Registration',
+      description: 'Python-based student registration project facilitating enrollment management with user-friendly interface.',
+    },
   ];
   
 
