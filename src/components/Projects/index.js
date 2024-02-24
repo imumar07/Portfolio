@@ -89,6 +89,20 @@ const projectsList = [
       title: 'Sizing An Image',
       description: 'Dynamic web application capable of adjusting the size of an element using DOM manipulations.',
     },
+    {
+      projectId: 11,
+      category: 'JAVA',
+      imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708767497/8316271_wleyov.jpg',
+      title: 'Hotel Application',
+      description: 'Java hotel application streamlining booking, reservations, and guest services for efficient management.',
+    },
+    {
+      projectId: 12,
+      category: 'PYTHON',
+      imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708767862/6982904_3371524_ozjjzx.jpg',
+      title: 'Calculator',
+      description: 'Python-based calculator project facilitating basic arithmetic operations with user-friendly interface.',
+    },
   ];
   
 
@@ -124,7 +138,7 @@ class Projects extends Component{
                     />
                   ))}
                 </ul>
-                <Row xs={1} s={2} md={2} xl={4} className="g-4"  style={{marginRight:"0"}}>
+                <Row xs={1} s={2} md={2} xl={4} className="g-4"  style={{marginRight:"0",justifyContent:"center"}}>
                 {filteredProjects.map(projectDetails => (
             <ProjectItem
               key={projectDetails.projectId}
