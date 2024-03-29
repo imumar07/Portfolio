@@ -5,11 +5,12 @@ import ProjectItem from '../ProjectItem';
 import Row from 'react-bootstrap/Row';
 
 const tabsList = [
-    {tabId: 'STATIC', displayText: 'Static'},
-    {tabId: 'RESPONSIVE', displayText: 'Responsive'},
-    {tabId: 'DYNAMIC', displayText: 'Dynamic'},
+    {tabId:'AI',displayText:'AI'},
     {tabId: 'JAVA', displayText: 'Java'},
     {tabId: 'PYTHON', displayText: 'Python'},
+    {tabId: 'DYNAMIC', displayText: 'Dynamic'},
+    {tabId: 'RESPONSIVE', displayText: 'Responsive'},
+    {tabId: 'STATIC', displayText: 'Static'},
   ]
 const projectsList = [
     {
@@ -109,6 +110,20 @@ const projectsList = [
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708770852/registration_bztwbk.jpg',
       title: 'Registration',
       description: 'Python-based student registration project facilitating enrollment management with user-friendly interface.',
+    },
+    {
+      projectId: 14,
+      category: 'AI',
+      imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1710735729/FloralAI_xwvj43.png',
+      title: 'Floral AI',
+      description: 'Flutter-based flower image recognition project utilizing AI for accurate classification.',
+    },
+    {
+      projectId: 15,
+      category: 'AI',
+      imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1710735634/16268313_rm373batch5-18a_f19bif.jpg',
+      title: 'Prediction Of Diabetes',
+      description: 'Python-based diabetes prediction tool aids early detection and personalized treatment.',
     },
   ];
   
