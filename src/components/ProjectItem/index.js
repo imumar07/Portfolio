@@ -8,9 +8,9 @@ const ProjectItem = props => {
   const {projectId, imageURL, description, title} = projectDetails
   return (
     <>
-    <Col key={projectId}  className='project-list-container m-2'>
-          <Card className='card-size project-item-container'>
-          <Card.Img variant="top" src={imageURL} />
+    <Col key={projectId}  className='project-list-container mt-3'>
+          <Card className=' project-item-container'>
+          <Card.Img variant="top" src={imageURL} className='project-item-image ' />
             <Card.Body className='project-item-details-container'>
               <Card.Title>{title}</Card.Title>
               <Card.Text>

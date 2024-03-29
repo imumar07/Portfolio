@@ -102,14 +102,14 @@ const projectsList = [
       category: 'PYTHON',
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708767862/6982904_3371524_ozjjzx.jpg',
       title: 'Calculator',
-      description: 'Python-based calculator project facilitating basic arithmetic operations with user-friendly interface.',
+      description: 'Python-based calculator with user friendly User Interface',
     },
     {
       projectId: 13,
       category: 'PYTHON',
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708770852/registration_bztwbk.jpg',
       title: 'Registration',
-      description: 'Python-based student registration project facilitating enrollment management with user-friendly interface.',
+      description: 'Python-based student registration form with Database Integration',
     },
     {
       projectId: 14,
@@ -123,7 +123,7 @@ const projectsList = [
       category: 'AI',
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1710735634/16268313_rm373batch5-18a_f19bif.jpg',
       title: 'Prediction Of Diabetes',
-      description: 'Python-based diabetes prediction tool aids early detection and personalized treatment.',
+      description: 'AI based diabetes prediction tool aids early detection and personalized treatment.',
     },
   ];
   

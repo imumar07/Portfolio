@@ -6,12 +6,14 @@
     display: flex;
     flex-direction: column;
     margin: 15px;
+    max-height: 450px;
   }
   
   .project-item-image {
     width: 100%;
     border: 1px solid transparent;
     border-radius: 5px;
+    height: 60%;
   }
   
   .project-item-details-container {
