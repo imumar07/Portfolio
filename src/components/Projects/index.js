@@ -95,13 +95,15 @@ const projectsList = [
       category: 'JAVA',
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708767497/8316271_wleyov.jpg',
       title: 'Hotel Application',
-      description: 'Java hotel application streamlining booking, reservations, and guest services for efficient management.',
+      projectLink:"https://github.com/imumar07/HotelBooking.git",
+      description: 'Java based Full stack hotel application .',
     },
     {
       projectId: 12,
       category: 'PYTHON',
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708767862/6982904_3371524_ozjjzx.jpg',
       title: 'Calculator',
+      projectLink:"https://github.com/imumar07/Calculator.git",
       description: 'Python-based calculator with user friendly User Interface',
     },
     {
@@ -109,21 +111,22 @@ const projectsList = [
       category: 'PYTHON',
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1708770852/registration_bztwbk.jpg',
       title: 'Registration',
-      description: 'Python-based student registration form with Database Integration',
+      projectLink:"https://github.com/imumar07/registrationform_dbconnected.git",
+      description: 'Python-based student registration form',
     },
     {
       projectId: 14,
       category: 'AI',
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1710735729/FloralAI_xwvj43.png',
       title: 'Floral AI',
-      description: 'Flutter-based flower image recognition project utilizing AI for accurate classification.',
+      description: 'Flutter-based flower image recognition project with AI.',
     },
     {
       projectId: 15,
       category: 'AI',
-      imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1710735634/16268313_rm373batch5-18a_f19bif.jpg',
+      imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1715449444/Untitled_design_uktqkb.png',
       title: 'Prediction Of Diabetes',
-      description: 'AI based diabetes prediction tool aids early detection and personalized treatment.',
+      description: 'AI based diabetes prediction tool aids early detection.',
     },
   ];
   
