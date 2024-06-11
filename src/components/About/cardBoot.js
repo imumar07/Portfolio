@@ -16,7 +16,7 @@ function CardBoot() {
           <Card.Text className="para-about">
           Aspiring full-stack developer with a solid foundation in web technologies and a proven track record of delivering impactful projects. Committed to contributing expertise and innovation across the entire web development spectrum.
           </Card.Text>
-         <a href='https://drive.google.com/uc?export=download&id=1ftKSwHqxrwZkvUsvS68tX0mchb-drHee'>
+         <a href='https://drive.google.com/uc?export=download&id=1luIg0iHf9unHFoXO8iBozPzaCRIf-wVW'>
          <button class="button"> Resume
     </button>
          </a>
