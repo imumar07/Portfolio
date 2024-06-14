@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 const achievementData = [
-  {id:0,title: 'Tech Consultant Intern',company:"HRLytics",duration:"6 Months",startDate:"October 2023",endDate:"Apri 2024", displayText: 'As a Tech Consultant Intern specializing in Spring Boot, I contributed to the learning and professional development of individuals by actively engaging in the exploration of Spring Boot technologies.',skills:["Java","Spring Boot","RESTful API","Backend","Mysql","Spring MVC","Hibernates"]},
+  {id:0,title: 'Tech Consultant Intern',company:"HRLytics",duration:"8 Months",startDate:"October 2023",endDate:"May 2024", displayText: 'As a Tech Consultant Intern specializing in Spring Boot, I contributed to the learning and professional development of individuals by actively engaging in the exploration of Spring Boot technologies.',skills:["Java","Spring Boot","RESTful API","Backend","Mysql","Spring MVC","Hibernates"]},
   {id:1,title: 'Teaching Assistant',company:"Nxt Wave",duration:"3 Months",startDate:"August 2023",endDate:"October 2023", displayText: 'As a teaching assistant, I resolve over 300 Python and web-related doubts, offering detailed solutions andguidance to foster students understanding and successwhile committed to facilitating a supportive learningenvironment.',skills:["HTML","CSS","Bootstrap","Python","Resposiveness","Flex Box","Java Script"]},
   
 ]
