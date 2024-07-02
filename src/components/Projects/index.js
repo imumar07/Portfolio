@@ -103,6 +103,7 @@ const projectsList = [
       category: 'AI',
       imageURL: 'https://res.cloudinary.com/dqe4ld4cx/image/upload/v1715449444/Untitled_design_uktqkb.png',
       title: 'Prediction Of Diabetes',
+      projectLink:"https://github.com/imumar07/diabetes_prediction.git",
       description: 'AI based diabetes prediction tool aids early detection.',
     },
   ];
