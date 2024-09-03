@@ -6,7 +6,7 @@ const fullStackSkills = [
     { id: 1, skillName: 'Frontend',skills:['HTML','CSS','Boostrap','Flexbox','React js','Javascript','Flutter'],style:""},
     { id: 2, skillName: 'Backend',skills:['Node js','Express js','Spring Boot','REST Api','Go'] ,style:""},
     { id: 3, skillName: 'Database',skills:['Mysql','Sqlite','Firebase'],style:"center" },
-    { id: 4, skillName: 'Others',skills:['GCP','Java','Python','Git','Numpy','OOPS','AI/ML','App Development'],style:"" },
+    { id: 4, skillName: 'Others',skills:['GCP','Java','Python','Git','OOPS','AI/ML','DevOps','App Development'],style:"" },
     // Add more skills as needed
   ];
   
