@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 const certifications = [
+  {id:3,title: 'Java Certified Foundations Associate ',issuedBy:"ORACLE",certificateLink:"https://drive.google.com/file/d/1l2h4KI2dPoWO1DyCGmmcVT9b3zyYnNs3/view"},
+
     {id:0,title: 'Programming Data Structures and Algorithms Using Python',issuedBy:"NPTEL",certificateLink:"https://drive.google.com/file/d/1e6Il3PlqFD1TRWRDKwwnGaS5QnMVx5YJ/view?usp=sharing"},
     {id:1,title: 'AWS Academy Graduate - AWS AcademyCloud Foundations',issuedBy:"Amazon",certificateLink:"https://drive.google.com/file/d/1YVIjaPwd_waN0WlKSSjJ7Secu1s6olZy/view?usp=sharing"},
     {id:2,title: 'Azure Fundamentals',issuedBy:"Microsoft",certificateLink:"https://drive.google.com/file/d/1amxT-BQ1SFlU8UOAuOUeZt8kGoY_smL-/view?usp=sharing"},
@@ -15,7 +17,7 @@ const certifications = [
 
 export default function Certifications() {
     return (
-        <Row xs={1} s={2} md={2} lg={3} className="g-4">
+        <Row xs={1} s={2} md={2} lg={4} className="g-4" >
         {library.add( faLink)}
           {certifications.map((each) => (
             <Col key={each.id} >
