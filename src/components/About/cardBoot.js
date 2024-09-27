@@ -26,7 +26,7 @@ function CardBoot() {
               projects. Committed to contributing expertise and innovation
               across the entire web development spectrum.
             </Card.Text>
-            <a href="https://drive.google.com/uc?export=download&id=1__MJndzxztlxfniKl8iFW4evomllpMOI">
+            <a href="https://drive.google.com/uc?export=download&id=1aAdkNC3GxU9JvTyEMQ2CsxHzxx5PauV4">
               <button class="button"> Resume</button>
             </a>
           </Card.Body>
